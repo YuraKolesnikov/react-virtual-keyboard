@@ -1,0 +1,15 @@
+.Key {
+  background-color: #2e2e2e;
+  height: 63px;
+  min-width: 63px;
+  color: #fff;
+  font-size: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+}
+
+.Key .active {
+  background-color: #979797;
+}

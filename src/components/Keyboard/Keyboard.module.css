@@ -1,0 +1,18 @@
+.Keyboard {
+  width: 1024px;
+  margin: auto;
+  border: 1px solid burlywood;
+  padding-top: 63px;
+  padding-bottom: 31px;
+  background-color: #1a1a1a;
+}
+
+.Keyboard .Keyboard__Main {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 6px;
+}
+
+.Keyboard__Backspace {
+  grid-column: 11 / 13;
+}
